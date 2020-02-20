@@ -49,3 +49,9 @@
 #footer a {
     color: white;
 }
+
+.orador{
+    height: 500px;
+    object-fit: cover;
+}
+
