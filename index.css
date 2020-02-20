@@ -11,6 +11,10 @@
     color: white;
 }
 
+#header{
+    z-index: 20;
+}
+
 #header img{
     width: 80px;
 }
@@ -25,7 +29,7 @@
     position: relative;
 }
 #carousel .overlay{
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     top: 0;
     bottom: 0;
