@@ -45,6 +45,11 @@
     height: 100%;
 }
 
+.badges{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 5px;
+}
 
 #footer{
     background: linear-gradient(90deg, #1c3643, #273b47, 25%, #1e5372);
