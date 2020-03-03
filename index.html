@@ -31,10 +31,10 @@
               <a class="nav-link" href="#speakers">Los oradores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">El lugar y la fecha</a>
+              <a class="nav-link" href="#place-time">El lugar y la fecha</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conviértete en orardor</a>
+              <a class="nav-link" href="#conviertete-en-orador">Conviértete en orardor</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-platzi" href="#">Comprar tickets</a>
@@ -100,7 +100,7 @@
                   <span class="badge badge-info">HTML y CSS</span>
                 </div>
                 <h5 class="card-title font-weight-bold">Carlos Villatoro</h5>
-                <p class="card-text">Hola, soy un desarrollador Frontend que le apasiona la enseñanza y aprender cada día más para mejorar cada una de las habilidades</p>
+                <p class="card-text">Hola, soy un desarrollador <abbr data-toggle="tooltip" data-placement="bottom" title="Programador de parte del cliente">Frontend</abbr> que le apasiona la enseñanza y aprender cada día más para mejorar cada una de las habilidades</p>
               </div>
             </div>
           </div>
@@ -147,6 +147,69 @@
       </div>
     </section>
     <!-- /Speakers -->
+    
+    <!-- Lugar y fecha -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 pl-0 pr-0">
+            <img src="assets/images/honolulu.jpg" alt="Honolulu">
+          </div>
+          <div class="col-12 col-lg-6 pb-4 pt-4">
+            <h2 class="mt-2">Honolulu - Octubre 2025</h2>
+            <p>Honolulu u Honolulú es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.​ Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
+            </p>
+            <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu" target="_blank">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Lugar y fecha -->
+
+    <!-- Conviertete en orador -->
+    <section id="conviertete-en-orador" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Convierte en un</small> <h2>ORADOR</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            Anótate como orador para dar una <abbr data-toggle="tooltip" title="Charlas de 5 minutos">charla ignite</abbr>.
+            Cuentanos de que quieres hablar!
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <textarea name="Text" class="form-control form-control-lg" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                  <small class="form-text text-muted">
+                    <span class="red">*</span> Recuerda incluir un título para tu charla
+                  </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <button type="button" class="btn btn-platzi btn-block">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Conviertete en orador -->
 
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
@@ -181,5 +244,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </body>
 </html>
